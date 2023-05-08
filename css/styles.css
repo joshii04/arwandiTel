@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: sans-serif;
+    font-style: normal;
+    background-color: rgb(38, 41, 46);
+    overflow-x: hidden;
+    scroll-behavior: smooth; 
+    color: white;
+}
+
+main{
+    overflow-x: hidden;
+}
+
+header{
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(38, 41, 46);
+    position: sticky;
+    z-index: 3;
+    position: sticky;
+    top: 0px;
+    z-index: 3;
+}
+
+header h1{
+    margin-bottom: 10px;
+}
+
+.intro{
+    text-align: center;
+    background-color:rgba(76, 18, 211, 0.6);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.contain{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: center;
+}
+
+.box1, .box2{
+    flex-basis: calc(50% - 20);
+    overflow: hidden;
+    padding: 20px;
+    overflow: hidden;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.box1{
+    text-align: left;
+    background-color:rgb(57, 105, 182, 0.6);
+}
+
+.box1 li{
+    /* list-style-type: none; */
+    margin-bottom: 5px;
+}
+
+.box1 ul{
+    padding-left: 5px;
+}
+
+.box2{
+    text-align: left;
+    background-color:rgb(57, 105, 182, 0.6);
+    padding: 24px;
+}
+
+.box3{
+    /* flex-basis: calc(100% - 20); */
+    overflow: hidden;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color:rgba(76, 18, 211, 0.6);
+    text-align: center;
+    display:flex;
+}
+
+.box3 h4{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.box3 ul{
+    padding-left: 5px;
+}
+
+.box3 li{
+    margin-bottom: 10px;    
+    list-style-type: none;
+    font-weight: bold 
+}
+
+.box3 p{
+    text-align: center;
+}
+
+.careers-list, .careers-email{
+    flex-basis: calc(50% - 20);
+    flex-direction: row;
+    overflow: hidden;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+footer, header{
+    text-align: center;
+    padding: 5px;
+    flex-shrink: 0;
+    width: 100%;
+    background-color: rgb(38, 41, 46);
+} 
+
+footer {
+    text-align: center;
+    padding: 5px;
+    flex-shrink: 0;
+}
+
+/* .bubbles{ 
+    position: fixed;
+    display: flex;
+    bottom: 0; 
+    left: 0;
+    right: 0;
+    justify-content: space-around;
+    z-index: 9; 
+}
+
+.bubbles span{ 
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background: #4fc3dc;
+    margin: 0 4px;
+    border-radius: 50%;
+    box-shadow:  0 0 0 10px #4fc3dc44, 
+    0 0 100px #4fc3dc;
+    animation: animate 15s linear infinite;
+
+}
+
+.bubbles span:nth-child(even)
+{
+    background: #ff2d75;
+    box-shadow:  0 0 0 10px #ff2d7544, 
+    0 0 100px #ff2d75,
+    0 0 50px #ff2d75;
+    animation: animate 15s linear infinite;
+}
+
+
+@keyframes animate{
+    0%
+    {
+        transform: translateY(10vh) scale(0);
+    }
+    100%
+    {
+        transform: translateY(-10vh) scale(1);
+    }
+} */
+
+
+
+
+
