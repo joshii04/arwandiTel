@@ -133,15 +133,15 @@ footer {
         flex-basis: 100%;
     }
 }
-
-/* .bubbles{ 
+/* 
+.bubbles{ 
     position: fixed;
     display: flex;
     bottom: 0; 
     left: 0;
     right: 0;
     justify-content: space-around;
-    z-index: 9; 
+    z-index: -1; 
 }
 
 .bubbles span{ 
@@ -176,8 +176,8 @@ footer {
     {
         transform: translateY(-10vh) scale(1);
     }
-} */
-
+}
+ */
 
 
 
